@@ -59,7 +59,7 @@ enum YourEnum: string
 To convert an enum to an array, simply call the `toArray` method:
 
 ```php
-$array = YourEnum::toArray();
+$array = YourEnum::toArray(); // ['visible' => 'Visible']
 ```
 
 ## Testing
