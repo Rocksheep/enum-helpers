@@ -1,0 +1,33 @@
+{
+    "name": "rocksheep/enum-helpers",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rocksheep\\EnumHelpers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rocksheep\\EnumHelpers\\Tests\\Mocks\\": "tests/_mocks/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marinus van Velzen",
+            "email": "rienvanvelzen@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34",
+        "phpstan/phpstan": "^1.11"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "analyse": "vendor/bin/phpstan analyse src --level max"
+    }
+}
