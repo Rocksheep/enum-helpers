@@ -1,12 +1,12 @@
 # Enum Helpers
 
-This package provides a set of utilities to work with PHP enums, making it easier to convert enums to arrays and handle hidden enum cases. It leverages PHP 8.1's enum feature, adding functionality to enhance its usability within your projects.
-
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/rocksheep/enum-helpers.svg)](https://packagist.org/packages/rocksheep/enum-helpers)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rocksheep/enum-helpers.svg)](https://packagist.org/packages/rocksheep/enum-helpers)
 [![Software License](https://img.shields.io/packagist/l/rocksheep/enum-helpers.svg)](LICENSE)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Rocksheep/enum-helpers/php.yml?branch=main
 )](https://github.com/rocksheep/enum-helpers/actions/workflows/php.yml)
+
+This package provides a set of utilities to work with PHP enums, making it easier to convert enums to arrays and handle hidden enum cases. It leverages PHP 8.1's enum feature, adding functionality to enhance its usability within your projects.
 
 ## Installation
 
