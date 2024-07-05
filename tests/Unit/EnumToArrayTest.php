@@ -7,7 +7,7 @@ test('it returns the enum as an array', function () {
         ->toBeArray();
 });
 
-test('the returned array contains a key and a value', function () {
+test('it returns the enum as key,value pairs where they are keyed by value', function () {
     expect(Product::toArray())
         ->toBe([
             'laravel' => 'Laravel',
@@ -15,12 +15,12 @@ test('the returned array contains a key and a value', function () {
         ]);
 });
 
-test('it filters out hidden values', function () {
+test('it filters out hidden cases', function () {
     expect(Product::toArray())
         ->not->toHaveKey('drupal');
 });
 
-test('it returns all values', function () {
+test('it returns all values except for the ones that are hidden', function () {
     expect(Product::values())
         ->toBe([
             'laravel',
@@ -28,7 +28,7 @@ test('it returns all values', function () {
         ]);
 });
 
-test('it returns all names', function () {
+test('it returns all names except for the ones that are hidden', function () {
     expect(Product::names())
         ->toBe([
             'Laravel',
