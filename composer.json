@@ -1,6 +1,13 @@
 {
     "name": "rocksheep/enum-helpers",
     "type": "library",
+    "description": "A collection of helper functions for working with enums in PHP",
+    "keywords": [
+        "enum",
+        "helpers",
+        "php"
+    ],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Rocksheep\\EnumHelpers\\": "src/"
